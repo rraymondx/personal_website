@@ -29,12 +29,12 @@
     gap: 37px;
 }
 
-/* .skill {
+.skill {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 11px;
-} */
+}
 
 .skillImageContainer {
     background-color: var(--color-secondary);
