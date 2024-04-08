@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles/App.module.css'
-import{Navbar, Hero, About, Experience, Projects, Footer} from './components/index.js'
+import{Navbar, Hero, About, Experience, Projects, Contact} from './components/index.js'
 
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <About />
       <Experience />
       <Projects />
-      <Footer />
+      <Contact />
     </div>
   )
 }
