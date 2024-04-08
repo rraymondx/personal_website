@@ -4,16 +4,16 @@ import{Navbar, Hero, About, Experience, Projects, Contact} from './components/in
 
 
 const App = () => {
-  return (
-    <div className={styles.App}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-    </div>
-  )
+    return (
+        <div className={styles.App}>
+        <Navbar />
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+        </div>
+    )
 }
 
 export default App

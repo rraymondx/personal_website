@@ -12,27 +12,27 @@ const About = () => {
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>Frontend Developer</h3>
+                            <h3>CST Student</h3>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                                I am currently at BCIT pursing a CST Dipolma.
                             </p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>Backend Developer</h3>
+                            <h3>Full Stack Developer</h3>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                I am currently in the fields of full stack development, trying to create meaningful projects.
                             </p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>UI/UX Designer</h3>
+                            <h3>Gamer</h3>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                I enjoy playing games like Valorant, League of Legends, Lethal Company, and Hearthstone!
                             </p>
                         </div>
                     </li>
