@@ -1,0 +1,26 @@
+[
+    {
+        "title": "HowRu",
+        "imageSrc": "projects/project.png",
+        "description": "HowRu is a mobile focused app created by me alongside with 2 other groupmates. I was the technical lead designer for the team, mainly focusing on the aesthetic aspect of the web mobile app.",
+        "skills": ["HTML", "CSS", "JavaScript", "Firebase"],
+        "demo": "https://howru2-fcdff.web.app/",
+        "source": "https://github.com/rraymondx/1800_202330_BBY25"
+    },
+    {
+        "title": "Project B",
+        "imageSrc": "projects/project.png",
+        "description": "This is a project made to learn the latest languages by building an app.",
+        "skills": ["React", "Express", "Node", "Sass"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "Project C",
+        "imageSrc": "projects/project.png",
+        "description": "This is a project made to learn the latest languages by building an app.",
+        "skills": ["React", "Express", "Node"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    }
+]
