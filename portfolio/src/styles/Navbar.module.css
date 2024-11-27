@@ -10,6 +10,13 @@
     margin: 0 10%;
 }
 
+/* Creating Sticky Navbar */
+.stickyNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .title {
     font-size: 30px;
     font-weight: 600;

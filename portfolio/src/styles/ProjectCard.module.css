@@ -3,6 +3,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between; 
     border-radius: 10px;
     background: linear-gradient(180deg, 
                                 #576CBC 0%, 
@@ -10,21 +11,33 @@
     box-shadow: 0 16px 14px 0 #041523;
     padding: 18px 24px;
     max-width: 345px;
+    height: auto; 
+    min-height: 400px; 
+    gap: 16px; 
 }
 
 .image {
-    margin-bottom: 26px;
+    margin-bottom: 16px;
+    max-width: 100%; 
+    height: auto; 
+    max-height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px; 
 }
 
 .title {
-    font-size: 25px;
+    font-size: 1.8rem; 
     font-weight: 700;
 }
 
 .description {
     margin-top: 6px;
-    font-size: 25px;
+    font-size: 1rem;
     font-weight: 400;
+    overflow-y: auto; 
+    max-height: 100px; 
+    line-height: 1.4; 
+    text-align: justify;
 }
 
 .skills {
@@ -33,12 +46,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 6px;
-    list-style: none;
+    gap: 6px; 
+    list-style: none; 
+    padding: 0; 
 }
 
 .skill {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
     border-radius: 100px;
     background: var(--color-dark);
@@ -47,7 +61,7 @@
 
 .links {
     width: 100%;
-    margin-top: 26px;
+    margin-top: auto; 
     display: flex;
     justify-content: space-around;
 }
@@ -55,8 +69,12 @@
 .link {
     text-decoration: none;
     color: var(--color-text);
-    font-size: 30px;
+    font-size: 26px;
     border-radius: 100px;
     background: var(--color-primary);
     padding: 1px 22px;
+}
+
+.link:hover {
+    background: var(--color-dark); 
 }

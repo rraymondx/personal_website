@@ -3,23 +3,23 @@
         "title": "HowRu",
         "imageSrc": "projects/HowRu.png",
         "description": "HowRu is a mental health social media app created by me alongside with 2 other groupmates.",
-        "skills": ["HTML", "CSS", "JavaScript", "Firebase"],
+        "skills": ["HTML", "CSS", "JavaScript", "Firebase", "Bootstrap", "MapBox GL"],
         "demo": "https://howru2-fcdff.web.app/",
         "source": "https://github.com/rraymondx/1800_202330_BBY25"
     },
     {
-        "title": "TBH",
-        "imageSrc": "projects/project.png",
-        "description": "TBH",
-        "skills": ["TBH"],
-        "demo": "/",
-        "source": "/"
+        "title": "DisasterNot",
+        "imageSrc": "projects/DisasterNot.jpg",
+        "description": " DisasterNot, app that aims to provide help to those who are worried about how to prepare for a natural disaster",
+        "skills": ["HTML", "CSS", "EJS", "JavaScript", "Jquery", "NodeJs Library", "MongoDB", "OpenAI API", "Axios", "Cloudinary"],
+        "demo": "https://www.youtube.com/watch?v=IsS5TJMNNT0",
+        "source": "https://github.com/rraymondx/2800-202410-BBY28"
     },
     {
-        "title": "TBH",
+        "title": "TBA",
         "imageSrc": "projects/project.png",
-        "description": "TBH",
-        "skills": ["TBH"],
+        "description": "TBA",
+        "skills": ["TBA"],
         "demo": "/",
         "source": "/"
     }

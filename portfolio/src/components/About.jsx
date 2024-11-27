@@ -7,14 +7,15 @@ const About = () => {
         <section className={styles.container} id="about">
             <h2 className={styles.title}>About</h2>
             <div className={styles.content}>
-                <img src={getImageUrl("about/aboutImage.png")} className={styles.aboutImage} alt="Me" />
+                <img src={getImageUrl("about/aboutImage.jpg")} className={styles.aboutImage} alt="Me" />
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>CST Student</h3>
+                            <h3>Data Analytics</h3>
                             <p>
-                                I am currently at BCIT pursing a CST Dipolma.
+                                Currently at BCIT studying predictive analytics,
+                                using linear and logistic regression models to predict data.
                             </p>
                         </div>
                     </li>
@@ -23,16 +24,16 @@ const About = () => {
                         <div className={styles.aboutItemText}>
                             <h3>Full Stack Developer</h3>
                             <p>
-                                I am currently in the fields of full stack development, trying to create meaningful projects.
+                                Currently learning full stack development both at BCIT and during personal time as a hobbie.
                             </p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>Gamer</h3>
+                            <h3>Hobbies</h3>
                             <p>
-                                I enjoy playing games like Valorant, League of Legends, Lethal Company, and Hearthstone!
+                                I enjoy street photography, playing badminton, and gaming with friends.
                             </p>
                         </div>
                     </li>

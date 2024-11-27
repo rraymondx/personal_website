@@ -9,6 +9,7 @@
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 .title {
@@ -17,16 +18,23 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    text-align: left; 
+    margin-bottom: 30px; 
 }
 
 .content {
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-items: flex-start; 
+    gap: 40px; 
 }
 
 .aboutImage {
     width: 35%;
+    max-width: 300px; 
+    padding-top: 30px;
+    border-radius: 10px; 
 }
 
 .aboutItems {
@@ -34,6 +42,7 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
+    flex-grow: 1; 
 }
 
 .aboutItem {
@@ -43,6 +52,7 @@
     border-radius: 20px;
     list-style: none;
     padding: 25px;
+    gap: 20px; 
     background-image: linear-gradient(90deg,
                                     rgba(165, 215, 232, 0.42) 0%,
                                     rgba(255, 255, 255, 0) 100%);
@@ -53,25 +63,37 @@
 
 .aboutItem:hover {
     background-size: 100% 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .aboutItem h3 {
     font-size: 25px;
     font-weight: 600;
+    margin-bottom: 5px; 
 }
 
 .aboutItem p {
-    font-size: 25px;
+    font-size: 15px;
+    margin: 0;
+    line-height: 1.6; 
 }
 
 @media screen and (max-width: 830px) {
     .container {
         background-color: transparent;
+        padding: 20px; 
         padding-left: 0;
         padding-right: 0;
     }
+
+    .title {
+        text-align: center;
+    }
+
     .content {
         flex-direction: column;
+        align-items: center;
+        gap: 20px; 
     }
 
     .aboutImage {
@@ -79,11 +101,20 @@
     }
 
     .aboutItems {
+        width: 100%;
         margin-top: 29px;
     }
 
     .aboutItem {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 15px; 
+        gap: 15px;
+    }
+
+    .aboutItem h3 {
+        font-size: 20px; 
+    }
+
+    .aboutItem p {
+        font-size: 14px; 
     }
 }

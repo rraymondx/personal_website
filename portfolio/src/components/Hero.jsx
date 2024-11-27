@@ -6,11 +6,11 @@ const Hero = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>
-                <h1 className={styles.title}>Hi, I'm Raymond</h1>
+                <h1 className={styles.title}>Hi, I am Raymond</h1>
                 <p className={styles.description}>
-                I'm a CST student at BCIT using React and Node.js!
+                I'm from Macau, currently studying at British Colombia Institute of Technology.
                 </p>
-                <a href="mainto:rraymondxie@gmail.com" className={styles.contactButton}>
+                <a href="mailto:rraymondxie@gmail.com" className={styles.contactButton}>
                     Contact Me
                 </a>
             </div>
